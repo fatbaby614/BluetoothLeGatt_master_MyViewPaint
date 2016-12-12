@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/res/merged/debug/layout/next_main.xml",
+        "source": "/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/src/main/res/layout/next_main.xml"
+    },
+    {
+        "merged": "/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/res/merged/debug/layout/listitem_device.xml",
+        "source": "/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/src/main/res/layout/listitem_device.xml"
+    },
+    {
+        "merged": "/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/res/merged/debug/layout/actionbar_indeterminate_progress.xml",
+        "source": "/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/src/main/res/layout/actionbar_indeterminate_progress.xml"
+    },
+    {
+        "merged": "/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/res/merged/debug/layout/gatt_services_characteristics.xml",
+        "source": "/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/src/main/res/layout/gatt_services_characteristics.xml"
+    }
+]

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_refresh"
+        android:title="刷新"
+        android:checkable="false"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_connect"
+        android:title="@string/menu_connect"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu_disconnect"
+        android:title="@string/menu_disconnect"
+        android:orderInCategory="101"
+        android:showAsAction="ifRoom|withText"/>
+    <item android:title="画笔颜色">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/color_red" android:title="红色"/>
+                <item android:id="@+id/color_green" android:title="绿色"/>
+                <item android:id="@+id/color_blue" android:title="蓝色"/>
+                <item android:id="@+id/colo_purper" android:title="紫色"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="画笔宽度">
+        <menu>
+            <group>
+                <item android:id="@+id/width_1" android:title="8"/>
+                <item android:id="@+id/width_2" android:title="12"/>
+                <item android:id="@+id/width_3" android:title="16"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="绘图功能">
+        <menu>
+            <group>
+                <item android:id="@+id/clear" android:title="檫除"/>
+                <item android:id="@+id/save" android:title="保存"/>
+                <item android:id="@+id/erase" android:title="清空"/>
+            </group>
+        </menu>
+    </item>
+</menu>
