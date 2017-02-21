@@ -120,8 +120,8 @@ public class DeviceControlActivity extends Activity {
                 //将坐标打印出来
                 pointX = intent.getStringExtra(BluetoothLeService.POINTX);
                 pointY = intent.getStringExtra(BluetoothLeService.POINTY);
-                System.out.println("--pointX---" + pointX);
-                System.out.println("--pointY---" + pointY);
+               // System.out.println("--pointX---" + pointX);
+               // System.out.println("--pointY---" + pointY);
 //                X = intent.getStringExtra(BluetoothLeService.EXTRA_DATA);
                 X = pointX;
                 Y = pointY;

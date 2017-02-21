@@ -2,76 +2,76 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a809555a2599054c3dcd1bf82b089315ac3a11df">
-        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/pre-dexed/debug/com.android.support-support-v13-23.3.0_4be1bc46146c000b9706319ba57e0763d46e6c4c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/jars/libs/internal_impl-23.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8813bdcf7583107c4873150075d17c8072ec50cf">
-        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_afc4e2c5799fabec3f8479d81071bd19181f3328.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
-        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.3.0_2a2d843be10bcaf4d1b921c8b9c3af62def3f45a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_58a80c1a45ea706b1beb3ebef6254e7b937c7244.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="35e4ebfd55ddc8c0e79c8652d8401e0a578ada45">
-        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/pre-dexed/debug/instant-run_8979049d23bcc3a786ce25e10895bd7c7810c041.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="aa02848fc84ed545466c700a79f2a89876ee866c">
-        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/pre-dexed/debug/instant-run-bootstrap_225a64ea8743e399b44d42e291925121379f4918.jar" />
+        sha1="46db9f8536691e3afd8c087364c7da2f46ec9705">
+        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_225a64ea8743e399b44d42e291925121379f4918/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/tanhuang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_25d78ab4e7e97411ab0a2f0bf4cf79616ebefec0.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_180a618010e0a8a60152d92ed4a36a6652f68dde.jar" />
+        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_180a618010e0a8a60152d92ed4a36a6652f68dde/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.3.0_2a2d843be10bcaf4d1b921c8b9c3af62def3f45a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8813bdcf7583107c4873150075d17c8072ec50cf">
+        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_afc4e2c5799fabec3f8479d81071bd19181f3328/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a809555a2599054c3dcd1bf82b089315ac3a11df">
+        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-23.3.0_4be1bc46146c000b9706319ba57e0763d46e6c4c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_58a80c1a45ea706b1beb3ebef6254e7b937c7244/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3009fe8e0c4238e8399078132bbcf6d65d50ce92">
+        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8979049d23bcc3a786ce25e10895bd7c7810c041/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tanhuang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_25d78ab4e7e97411ab0a2f0bf4cf79616ebefec0/classes.dex" />
     </item>
 
 </items>

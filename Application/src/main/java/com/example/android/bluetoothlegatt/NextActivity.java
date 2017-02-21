@@ -102,17 +102,18 @@ public class NextActivity extends Activity{
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
                 //将数据显示在mDataField上
                 String data = intent.getStringExtra(BluetoothLeService.EXTRA_DATA);
-                System.out.println("data----" + data);
+                //System.out.println("data----" + data);
                 //将坐标打印出来
                 pointX = intent.getStringExtra(BluetoothLeService.POINTX);
                 pointY = intent.getStringExtra(BluetoothLeService.POINTY);
                 pressValue = intent.getStringExtra(BluetoothLeService.PRESS);
-                System.out.println("Next--pointX---" + pointX);
-                System.out.println("Next--pointY---" + pointY);
-                System.out.println("Next--pressValue---" + pressValue);
+               // System.out.println("Next--pointX---" + pointX);
+                //System.out.println("Next--pointY---" + pointY);
+               // System.out.println("Next--pressValue---" + pressValue);
 
-                System.out.println("screenWidth:"+screenWidth);
-                System.out.println("screenHeight:"+screenHeight);
+               // System.out.println("screenWidth:"+screenWidth);
+               // System.out.println("screenHeight:"+screenHeight);
+               // Log.i("BLE Tablet", "point:"+ pointX+ pointX);
                 pointIntX = Integer.parseInt(pointX);
                 pointIntY = Integer.parseInt(pointY);
                 pressIntValue = Integer.parseInt(pressValue);
@@ -148,12 +149,12 @@ public class NextActivity extends Activity{
         int resourceId = resources.getIdentifier("status_bar_height", "dimen","android");
         //状态栏的高度
         status_bar_height = resources.getDimensionPixelSize(resourceId);
-        System.out.println("status_bar_height:"+status_bar_height);
+      //  System.out.println("status_bar_height:"+status_bar_height);
 
         int resourceId1 = resources.getIdentifier("navigation_bar_height","dimen", "android");
         //导航栏的高度
         navigation_bar_height = resources.getDimensionPixelSize(resourceId1);
-        System.out.println("navigation_bar_height:"+navigation_bar_height);
+       // System.out.println("navigation_bar_height:"+navigation_bar_height);
 
 
 
@@ -168,7 +169,7 @@ public class NextActivity extends Activity{
         registerReceiver(mGattUpdateReceiver, makeGattUpdateIntentFilter());
         if (mBluetoothLeService != null) {
             final boolean result = mBluetoothLeService.connect(mDeviceAddress);
-            Log.d(TAG, "Connect request result=" + result);
+          //  Log.d(TAG, "Connect request result=" + result);
         }
     }
 

@@ -127,6 +127,8 @@ public class BluetoothLeService extends Service {
 
     private void broadcastUpdate(final String action,
                                  final BluetoothGattCharacteristic characteristic) {
+       // Log.i(TAG, "broadcastUpdate");
+
         final Intent intent = new Intent(action);
 
         // This is special handling for the Heart Rate Measurement profile.  Data parsing is
@@ -144,7 +146,20 @@ public class BluetoothLeService extends Service {
             }
 
             final byte[] data1 = characteristic.getValue();
-            System.out.println("字节数："+ Arrays.toString(data1));
+           // System.out.print("字节数："+ Arrays.toString(data1));
+            int  sumcheck1 = 0;
+            sumcheck1 = data1[9] & 0xff;
+            int  sumcheck = (byte) ( data1[2]+data1[3]+data1[4]+data1[5]+data1[6]+data1[7]+data1[8] ) & 0xff;
+            System.out.format(" %02x %02x %02x %02x %02x %02x %02x %02x -- %04x %04x ",data1[2],data1[3],data1[4],data1[5],data1[6],data1[7],data1[8],data1[9],sumcheck,sumcheck1);
+
+
+            if (sumcheck  != (data1[9] & 0xff)) {
+                System.out.print("checksum error");
+                return;
+            }
+            System.out.println();
+
+
             /**
              * 获取X坐标
              * */
@@ -177,6 +192,7 @@ public class BluetoothLeService extends Service {
             final int heartRate = characteristic.getIntValue(format, 1);
 //            Log.d(TAG, String.format("Received heart rate: %d", heartRate));
             intent.putExtra(EXTRA_DATA, String.valueOf(heartRate));
+            sendBroadcast(intent);
         } else {
             // For all other profiles, writes the data formatted in HEX.
             final byte[] data = characteristic.getValue();
@@ -187,7 +203,7 @@ public class BluetoothLeService extends Service {
                 intent.putExtra(EXTRA_DATA, new String(data) + "\n" + stringBuilder.toString());
             }
         }
-        sendBroadcast(intent);
+
     }
 
     public class LocalBinder extends Binder {

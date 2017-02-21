@@ -62,8 +62,8 @@ public class MyView extends View {
         //getDisplayMetrics()方法获取DisplayMetrics对象，用于获取屏幕信息
         view_width = context.getResources().getDisplayMetrics().widthPixels;	//获取屏幕宽度
         view_height = context.getResources().getDisplayMetrics().heightPixels;	//获取屏幕高度
-        System.out.println("view_width:"+view_width);
-        System.out.println("view_height"+view_height);
+       // System.out.println("view_width:"+view_width);
+       // System.out.println("view_height"+view_height);
         initCanvas();
         savePath = new ArrayList();
         deletePath = new ArrayList();
@@ -139,8 +139,8 @@ public class MyView extends View {
     public boolean onTouchEvent(MotionEvent event) {
         float x = event.getX();
         float y = event.getY();
-        System.out.println("x值"+x);
-        System.out.println("y值"+y);
+       // System.out.println("x值"+x);
+       // System.out.println("y值"+y);
         switch (event.getAction()){
             case MotionEvent.ACTION_DOWN:
                 path.moveTo(x, y);			//将绘图的起点移动到（x,y）坐标的位置

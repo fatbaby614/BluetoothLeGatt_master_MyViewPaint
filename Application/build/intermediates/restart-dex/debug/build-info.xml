@@ -1,37 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="18"
-    density="tvdpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="3289456503198"
+    timestamp="4380656059448"
     token="-4561774854538220073"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="887" />
+        duration="359" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="338" />
+        duration="95" />
     <task
         name="verifier"
-        duration="56" />
+        duration="2" />
 
     <artifact
-        location="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/outputs/apk/Application-debug.apk"
-        type="MAIN" />
+        location="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="3289456503198"
+        timestamp="3880618746112"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/outputs/apk/Application-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="4380656059448"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

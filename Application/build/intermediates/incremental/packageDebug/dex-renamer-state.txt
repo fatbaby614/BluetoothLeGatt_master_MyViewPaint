@@ -1,4 +1,7 @@
-#Mon Dec 12 09:37:03 CST 2016
-base.0=/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Tue Feb 21 15:40:00 CST 2017
+base.0=/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_225a64ea8743e399b44d42e291925121379f4918
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.1=/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8979049d23bcc3a786ce25e10895bd7c7810c041/classes.dex
+base.1=/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8979049d23bcc3a786ce25e10895bd7c7810c041
+file.0=/Users/tanhuang/AndroidStudioProjects/BluetoothLeGatt_master_MyViewPaint/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_225a64ea8743e399b44d42e291925121379f4918/classes.dex
